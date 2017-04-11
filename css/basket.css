@@ -1,12 +1,13 @@
 
 *{
   margin:0;
-  padding: 0;
+  padding:0;
 }
+
 #botoncitos{
   margin-left:600px;
   margin-top: 50px;
-  
+
 }
 header{
   height:60px;
@@ -37,6 +38,7 @@ h1{
   border: 2px solid #555;
   position:absolute;
   margin-left: 530px;
+  ,
 }
 .semiCirculo{
   width: 200px;

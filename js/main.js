@@ -22,3 +22,17 @@ function mostrarTennis(){
  document.getElementById('basketball').style.display ="none";
  document.getElementById('futball').style.display ="none";
 }
+
+// movimiento de balon  ES ESTOOOOO FREDYYY IVANCITO JOSE!  :S AIIIIIUDAAA
+var canchita =document.getElementById('basketball');
+var balonFut = document.getElementsByClassName('balon');
+canchita.addEventListener("mouseover",moverBalonFut);
+
+function moverBalonFut(event){
+  var x = event.clientX;
+	var y = event.clientY;
+  y = y + 20;
+  balonBasket.style.marginTop = y + 'px';
+   x = x + 20;
+  balonBasket.style.marginTop = x + 'px';
+}
