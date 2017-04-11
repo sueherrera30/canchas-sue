@@ -6,7 +6,9 @@
 	border: 1px solid white;
 	padding: 20px;
 	box-sizing: border-box;
-  margin-left: 160px;
+  margin-left: 250px;
+	margin-top: 80px;
+	display: none;
 }
 
 .cancha {
@@ -32,15 +34,6 @@
 	right: -1px;
 }
 
-.circulo {
-	border: 2px solid white;
-	border-radius: 100%;
-	width: 150px;
-	height: 150px;
-	position: absolute;
-  	left: 41%;
-  	top: 30%;
-}
 .linea-central{
     height: 100%;
     border-left: 2px solid white;;
@@ -69,3 +62,27 @@
     border-radius: 100px 0 0 100px;
     margin-top: -12%;
     margin-left: 683px;
+	}
+
+	.circuloCentral{
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+  left: 41%;
+  top: 30%;
+	}
+
+	.balon{
+	  width: 20px;
+	  height: 20px;
+	  -moz-border-radius: 50%;
+	  -webkit-border-radius: 50%;
+	  border-radius: 50%;
+	  border: 1px solid #555;
+	  position: absolute;
+	  margin-left:290px;
+	 margin-top: 150px;
+	 background-color:#FFFFFF;
+	}
